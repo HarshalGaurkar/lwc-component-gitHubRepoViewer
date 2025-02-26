@@ -16,7 +16,7 @@ A **Lightning Web Component (LWC)** that allows users to fetch and display **Git
 
 ### **Step 1: Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/github-repo-viewer-lwc.git
+git clone https://github.com/HarshalGaurkar/lwc-component-gitHubRepoViewer.git
 cd github-repo-viewer-lwc
 ```
 
