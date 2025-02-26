@@ -1,5 +1,8 @@
 # 🚀 GitHub Repository Viewer - LWC Component  
 
+# Component Demo
+https://github.com/user-attachments/assets/85ff28ff-f8b1-4548-bedd-0b2d120e8a2a
+
 A **Lightning Web Component (LWC)** that allows users to fetch and display **GitHub repositories** by entering a username. This component integrates with the **GitHub API** and showcases repositories dynamically in a clean, structured layout.
 
 ## 📌 Features  
