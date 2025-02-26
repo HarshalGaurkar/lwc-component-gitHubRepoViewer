@@ -65,15 +65,6 @@ cd github-repo-viewer-lwc
 
 ---
 
-## 🤝 Contributing  
-We welcome contributions! If you’d like to **improve the component**:  
-1️⃣ Fork this repository.  
-2️⃣ Create a new **feature branch** (`git checkout -b feature-branch`).  
-3️⃣ Commit changes and push (`git push origin feature-branch`).  
-4️⃣ Open a **Pull Request (PR)** for review.  
-
----
-
 ## 📜 License  
 This project is **open-source** and licensed under the **MIT License**.  
 
