@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="GitHub Repositories" icon-name="utility:world">
+        <div class="slds-m-around_medium input-container">
+            <lightning-input type="text" label="GitHub Username" value={username} onchange={handleInputChange} class="input-box"></lightning-input>
+            <div class="button-container" style="margin-top: 17px;">
+                <lightning-button label="Fetch Repos" variant="brand" class="fetch-button" onclick={fetchRepos}></lightning-button>
+            </div>
+        </div>
+
+        <template if:true={loading}>
+            <div class="slds-align_absolute-center slds-m-vertical_medium">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template if:true={repositories}>
+            <ul class="slds-m-around_medium repo-list">
+                <template for:each={repositories} for:item="repo">
+                    <li key={repo.name} class="repo-item">
+                        <a href={repo.url} target="_blank">{repo.name}</a> - {repo.description}
+                    </li>
+                </template>
+            </ul>
+        </template>
+
+        <template if:true={error}>
+            <p class="slds-text-color_error slds-m-around_medium error-text">{error}</p>
+        </template>
+    </lightning-card>
+</template>

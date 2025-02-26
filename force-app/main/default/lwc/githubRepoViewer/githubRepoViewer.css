@@ -1,0 +1,43 @@
+.repo-item {
+    padding: 10px;
+    border-radius: 5px;
+    background: #f3f2f2;
+    margin-bottom: 8px;
+    transition: transform 0.2s;
+}
+.repo-item:hover {
+    transform: scale(1.02);
+    background: #e0e0e0;
+}
+.repo-item a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0070d2;
+}
+.repo-item a:hover {
+    text-decoration: underline;
+}
+.input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.input-box {
+    flex-grow: 1;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+.fetch-button {
+    white-space: nowrap;
+}
+.repo-list {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.error-text {
+    font-size: 1rem;
+    font-weight: bold;
+}
